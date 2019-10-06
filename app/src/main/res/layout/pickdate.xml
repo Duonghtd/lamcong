@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#76AA6A">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="chon so ngay :"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:id="@+id/pickdateTextView1"
+		android:layout_marginTop="15dp"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Xong"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:id="@+id/xong"/>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:inputType="number"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:hint="so ngay"
+		android:layout_alignParentRight="true"
+		android:layout_marginTop="11dp"
+		android:layout_toRightOf="@id/pickdateTextView1"
+		android:layout_marginLeft="13dp"
+		android:id="@+id/edsongay"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="nhung loai hang :"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_below="@id/pickdateTextView1"
+		android:layout_marginTop="17dp"
+		android:id="@+id/pickdateTextView2"/>
+
+	<CheckBox
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/pickdateTextView2"/>
+
+</RelativeLayout>
+
